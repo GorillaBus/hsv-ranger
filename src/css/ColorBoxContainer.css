@@ -1,0 +1,18 @@
+.colorBoxContainer {
+  margin: 25px 0 25px 0;
+  padding: 25px 0 25px 0;
+}
+
+.colorBox {
+  border: 1px #555555 solid;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin:5px;
+  box-sizing: border-box;
+}
+
+.colorBox P {
+  text-align: center;
+  color: #555555;
+}

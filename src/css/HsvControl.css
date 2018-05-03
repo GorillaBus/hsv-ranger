@@ -1,0 +1,47 @@
+
+.rangeslider {
+  height: 385px;
+}
+
+.sliderBox {
+  background: #eeeeee;
+  margin:5px;
+}
+
+.sliderBox P {
+  height: 36px;
+  text-align: center;
+  color: #333333;
+}
+
+.sliderBox .display {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.hsvControlContainer {
+  width:500px;
+  height:500px;
+  display: inline-block;
+}
+
+.sliderBox {
+  width: 100px;
+  float: left;
+}
+
+.sliderContainer {
+  position: fixed;
+  right: 50px;
+  top: calc(50% - 385px);
+}
+
+.sliderContainer  #btns {
+  display:inline-block;
+  float:right;
+}
+
+.sliderContainer  #btns button {
+  font-size: 16px;
+  cursor: pointer;
+}
